@@ -10,26 +10,29 @@ Quote.delete_all
 Quote.create! (
   [
     {
-      text: "Be yourself; everyone else is already taken.",
+      text: "when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.",
       author: "Oscar Wilde"
     },
     {
-      text: "Two things are infinite: the universe and human stupidity; " \
-            "and I'm not sure about the universe.",
+      text: "Programs must be written for people to read, and only incidentally for machines to execute  \
+            and I'm not sure about the universe.",
       author: "Albert Einstein"
     },
     {
-      text: "So many books, so little time.",
+      text: "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
       author: "Frank Zappa"
     },
     {
-      text: "Be the change that you wish to see in the world",
+      text: "Give a man a program, frustrate him for a day.
+Teach a man to program, frustrate him for a lifetime",
       author: "Mahatma Gandhi"
     },
     {
       text: "If you tell the truth, you don't have to remember anything.",
       author: "Mark Twain"
     }
+
+
   ]
 )
 puts "Quotes seeded!"
